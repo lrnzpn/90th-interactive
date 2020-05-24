@@ -60,10 +60,7 @@
           <div id="laptop" v-if="active <= 7 && active >= 4">
             <!-- laptop w/ header -->
             <transition name="fade" mode="out-in">
-              <div
-                class="laptop-wrapper search-header center"
-                v-if="active === 4"
-              >
+              <div class="laptop-wrapper search-header center" v-if="active === 4">
                 <div class="macbook-container">
                   <div id="mac-search"></div>
                 </div>
@@ -118,10 +115,7 @@
         <transition name="fade" mode="out-in">
           <div id="perks" v-if="active <= 11 && active >= 8">
             <transition name="fade">
-              <div
-                class="perks-linear center"
-                v-if="active >= 8 && active <= 9"
-              >
+              <div class="perks-linear center" v-if="active >= 8 && active <= 9">
                 <!-- perks w mobile phone -->
                 <transition name="fade" mode="out-in">
                   <div class="perks-container" v-if="active === 8">
@@ -216,11 +210,7 @@
               <div class="pros center">
                 <div class="pros-container">
                   <transition name="fade">
-                    <div
-                      id="pros"
-                      class="center"
-                      v-if="active >= 12 && active <= 17"
-                    >
+                    <div id="pros" class="center" v-if="active >= 12 && active <= 17">
                       <span>Pros</span>
                     </div>
                   </transition>
@@ -253,10 +243,10 @@
                       <div class="pros-txt" v-if="active === 13">
                         <div id="rally" class="gdn-img">
                           <div class="pc-txt center">
-                            <span
-                              >Articles remain timely and avoid becoming
-                              outdated.</span
-                            >
+                            <span>
+                              Articles remain timely and avoid becoming
+                              outdated.
+                            </span>
                           </div>
                           <div class="img-creds">
                             <span>Photo by Zach Garcia</span>
@@ -288,10 +278,10 @@
                       <div class="pros-txt" v-if="active === 15">
                         <div id="rally2" class="gdn-img">
                           <div class="pc-txt center">
-                            <span
-                              >Distribution is more environmentally
-                              friendly.</span
-                            >
+                            <span>
+                              Distribution is more environmentally
+                              friendly.
+                            </span>
                           </div>
                           <div class="img-creds">
                             <span>Photo by Bruce Ong</span>
@@ -307,10 +297,10 @@
                       <div class="pros-txt" v-if="active === 16">
                         <div id="fr" class="gdn-img">
                           <div class="pc-txt center">
-                            <span
-                              >More creativity and flexibility in terms of
-                              content that can be released.</span
-                            >
+                            <span>
+                              More creativity and flexibility in terms of
+                              content that can be released.
+                            </span>
                           </div>
                           <div class="img-creds">
                             <span>Photo by Bruce Ong</span>
@@ -326,10 +316,10 @@
                       <div class="pros-txt" v-if="active === 17">
                         <div id="arms" class="gdn-img">
                           <div class="pc-txt center">
-                            <span
-                              >Articles are more easily archived
-                              digitally.</span
-                            >
+                            <span>
+                              Articles are more easily archived
+                              digitally.
+                            </span>
                           </div>
                           <div class="img-creds">
                             <span>Photo by Zach Garcia</span>
@@ -345,10 +335,10 @@
                       <div class="cons-txt" v-if="active === 18">
                         <div id="voice" class="gdn-img">
                           <div class="pc-txt center">
-                            <span
-                              >Writers will not feel the gratification of seeing
-                              their names on printed newspapers.</span
-                            >
+                            <span>
+                              Writers will not feel the gratification of seeing
+                              their names on printed newspapers.
+                            </span>
                           </div>
                           <div class="img-creds">
                             <span>Photo by Regine Salumbre</span>
@@ -364,10 +354,10 @@
                       <div class="cons-txt" v-if="active === 19">
                         <div id="owners" class="gdn-img">
                           <div class="pc-txt center">
-                            <span
-                              >Readers lose the feeling of actually holding a
-                              newspaper in hand.</span
-                            >
+                            <span>
+                              Readers lose the feeling of actually holding a
+                              newspaper in hand.
+                            </span>
                           </div>
                           <div class="img-creds">
                             <span>Photo by Jason Mariano</span>
@@ -383,10 +373,10 @@
                       <div class="cons-txt" v-if="active === 20">
                         <div id="embrace" class="gdn-img">
                           <div class="pc-txt center">
-                            <span
-                              >The tradition of releasing in print is
-                              forgone.</span
-                            >
+                            <span>
+                              The tradition of releasing in print is
+                              forgone.
+                            </span>
                           </div>
                           <div class="img-creds">
                             <span>Photo by Bruce Ong</span>
@@ -402,10 +392,10 @@
                       <div class="cons-txt" v-if="active === 21">
                         <div id="tt" class="gdn-img">
                           <div class="pc-txt center">
-                            <span
-                              >Online articles are not easily accessible for
-                              those without social media.</span
-                            >
+                            <span>
+                              Online articles are not easily accessible for
+                              those without social media.
+                            </span>
                           </div>
                           <div class="img-creds">
                             <span>Photo by Zoey Ignacio</span>
@@ -541,10 +531,10 @@
             <div class="mobile-container center">
               <!-- header -->
               <div class="app-container center">
-                <span @click="resetApp"
-                  >Click on the red elements to view the future Guidon app
-                  features.</span
-                >
+                <span @click="resetApp">
+                  Click on the red elements to view the future Guidon app
+                  features.
+                </span>
               </div>
               <!-- phone -->
               <div class="phone-container center">
@@ -620,10 +610,10 @@
                         that push notification ...Just one tap and you’re
                         watching already."
                       </p>
-                      <span class="head"
-                        >Jacob Uriel R. Quintos, Digital Development
-                        Deputy</span
-                      >
+                      <span class="head">
+                        Jacob Uriel R. Quintos, Digital Development
+                        Deputy
+                      </span>
                     </div>
                   </transition>
 
@@ -636,9 +626,7 @@
                         because the [article’s popularity] really depends on
                         relevance."
                       </p>
-                      <span class="head"
-                        >Bryce R. Rubi, Social Media Manager</span
-                      >
+                      <span class="head">Bryce R. Rubi, Social Media Manager</span>
                     </div>
                   </transition>
                 </div>
@@ -651,9 +639,7 @@
                         website we have now, you can only save it by having the
                         tab open and a lot of our content is timeless in nature"
                       </p>
-                      <span class="head"
-                        >Jason T. Mariano, Design Executive Editor</span
-                      >
+                      <span class="head">Jason T. Mariano, Design Executive Editor</span>
                     </div>
                   </transition>
 
@@ -665,9 +651,7 @@
                         The only time the reader really has something to say is
                         when our work is already done."
                       </p>
-                      <span class="head"
-                        >Carmela Masiglat, Graphic Design Editor</span
-                      >
+                      <span class="head">Carmela Masiglat, Graphic Design Editor</span>
                     </div>
                   </transition>
                 </div>
@@ -1354,7 +1338,7 @@ export default {
 
       #tgdn-mobile {
         height: 100%;
-        background-image: url("../assets/background/guidon.gif");
+        background-image: url("../assets/background/guidon-min.gif");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: bottom;
